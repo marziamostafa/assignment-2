@@ -26,10 +26,11 @@ Style in ine cover
     background-color: rgba(0, 0, 0, 0.952);
     display: flex;
     column-gap: 60px;
-    width: 75%;
+    width: 90%;
     height: 350px;
     margin-top: 50px;
-    margin-left: 105px;
+    margin-left: 160px;
+
     margin-right: 90px;
     padding: 100px;
     border-radius: 30px;
@@ -308,8 +309,8 @@ style in the second swebsite
         row-gap: 25px;
         height: 100%;
         margin-top: 50px;
-        margin-left: 30px;
-        margin-right: 20px;
+        margin-left: 10px;
+        margin-right: 40px;
         padding: 60px;
     }
 
