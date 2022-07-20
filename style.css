@@ -1,0 +1,538 @@
+/*--------------- 
+Adding Font Family
+------------------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&family=Ubuntu&display=swap');
+
+.body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* --------------------------
+styles for the first website 
+------------------------------*/
+
+
+/*-------------------
+Style in ine cover
+------------------- */
+.cover {
+    margin-right: 75px;
+}
+
+.live {
+    background-color: rgba(0, 0, 0, 0.952);
+    display: flex;
+    column-gap: 60px;
+    width: 75%;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 105px;
+    margin-right: 90px;
+    padding: 100px;
+    border-radius: 30px;
+}
+
+.live-discription {
+    display: flex;
+
+    flex-direction: column;
+    color: white;
+    width: 50%;
+
+
+
+}
+
+.live-discription h1 {
+
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: -20px
+        /* width: 520px;
+    height: 240px; */
+
+}
+
+.live-discription p {
+    font-size: 20px;
+    margin-top: -20px;
+    transition: width 1s ease-in 1s;
+
+}
+
+.live-discription p:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.live-discription button {
+    background-color: red;
+    width: 180px;
+    height: 5em;
+    border-radius: 5px;
+    padding: 10px;
+    transition: width 1s ease-in 1s;
+}
+
+.live-discription button:hover {
+    width: 300px;
+    background-color: darkcyan;
+}
+
+.live-discription a {
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.live .player img {
+    width: 520px;
+    height: 520px;
+    margin-top: -70px;
+}
+
+/* -------------------------------
+style in the first section
+----------------------------- */
+
+.transfer,
+.schedules {
+    margin: 100px 140px 0px 100px;
+    display: flex;
+    column-gap: 20px;
+
+
+}
+
+.options {
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    background-color: rgba(0, 0, 0, 0.952);
+    width: 4000px;
+    border-radius: 10px;
+    height: 280px;
+    padding: 10px;
+
+}
+
+.options button {
+    background-color: white;
+    width: 200px;
+    height: 60px;
+
+    margin: 15px 15px 5px 35px;
+    border-radius: 10px;
+
+}
+
+.options a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.options .blog {
+    background-color: red;
+}
+
+.transfer-info,
+.schedule {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.transfer-info button {
+    margin: 15px 15px 5px 0px;
+    height: 30px;
+    width: 150px;
+    font-size: 20px;
+
+
+}
+
+.trans-detail a {
+    font-size: 10px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.trans-icon {
+    display: flex;
+    column-gap: 30px;
+}
+
+.about-trans {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+}
+
+.trans-details {
+    margin: 15px;
+}
+
+.view-all {
+    margin-top: 150px;
+    margin-bottom: -70px;
+    margin-left: 20px;
+    display: none;
+}
+
+.view-all button {
+    background-color: red;
+    width: 160px;
+    height: 5em;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+
+}
+
+.view-all a {
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+/* --------
+footer styles 
+---------------*/
+footer {
+    background-color: rgba(0, 0, 0, 0.952);
+    width: 100%;
+    height: 300px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    margin-top: 150px;
+
+}
+
+
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    padding-top: 50px;
+    width: 1110px;
+
+
+    border-top: 1px solid rgba(128, 128, 128, 0.979);
+}
+
+.icons {
+    margin-left: 400pxpx;
+    padding-top: 50px;
+}
+
+.icon {
+
+    font-size: 20px;
+    padding: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+}
+
+/* -------------------------------
+style in the second swebsite
+----------------------------- */
+
+.options #upcoming-website2 {
+    background-color: red;
+}
+
+.options #blog-website2 {
+    background-color: white;
+}
+
+.time {
+    padding: 53px 30px 53px 30px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    width: 250px;
+    height: 180px;
+}
+
+.flag {
+    display: flex;
+    column-gap: 15px;
+}
+
+.time-info {
+    text-align: center;
+}
+
+.time-info h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.time-info p {
+    font-size: 20px;
+}
+
+/*-----------------------
+ Media Queries For mobile
+ ------------------------*/
+@media screen and (max-width: 688px) {
+    .cover {
+        margin-right: 25;
+    }
+
+    .live {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        row-gap: 25px;
+        height: 100%;
+        margin-top: 50px;
+        margin-left: 30px;
+        margin-right: 20px;
+        padding: 60px;
+    }
+
+    .live-discription {
+        width: 100%;
+        height: 50%;
+
+    }
+
+    .live-discription h1 {
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: -40px;
+    }
+
+    .live-discription p {
+        font-size: 15px;
+        font-weight: normal;
+        margin-top: 2px;
+    }
+
+    .live-discription button {
+        background-color: red;
+        width: 34%;
+        height: 2.8em;
+        border-radius: 5px;
+        padding: 1%px;
+    }
+
+    .live-discription a {
+
+        padding: 1%;
+        font-size: 100%;
+    }
+
+    .player {
+        height: 50%;
+        width: 100%;
+    }
+
+    .live .player img {
+        width: 270px;
+        height: 270px;
+        margin-top: 0px;
+        margin-left: 30px;
+        margin-bottom: -64px;
+    }
+
+    .transfer,
+    .schedules {
+
+        display: flex;
+        gap: 30%;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .options {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        border-radius: 10px;
+        background-color: white;
+        width: 100%;
+        margin-left: 12%;
+    }
+
+    .transfer-info,
+    .schedule {
+        margin-top: 5%;
+        display: grid;
+        grid-column-gap: 50px;
+        grid-row-gap: 1%;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        margin-left: 4%;
+        margin-bottom: 55%;
+    }
+
+
+    footer {
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding-top: 40px;
+        margin-top: 150px;
+
+    }
+
+    .info {
+        flex-direction: column;
+
+        justify-content: center;
+        width: 80%;
+        margin-top: 10px;
+        padding-top: 10px;
+        font-size: larger;
+        row-gap: 35px;
+        margin-bottom: 40px;
+        height: 500px;
+        ;
+    }
+
+}
+
+
+/* ---------------------
+Media Queries For tablet
+------------------------ */
+@media screen and (min-width:689px) and (max-width:992px) {
+
+    .cover {
+        margin-right: 45;
+    }
+
+    .live {
+        display: flex;
+        width: 75.5%;
+        column-gap: 25px;
+        height: 300px;
+        margin-top: 50px;
+        margin-left: 3%;
+        margin-right: 3%;
+        padding: 100px;
+    }
+
+    .live-discription {
+        margin-left: -50px;
+        width: 50%;
+
+    }
+
+    .live-discription h1 {
+        font-size: 35px;
+        font-weight: 700;
+        margin-top: -30px;
+    }
+
+    .live-discription p {
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    .player {
+        width: 50%;
+
+    }
+
+    .live .player img {
+        width: 400px;
+        height: 400px;
+
+        margin-top: 0px;
+    }
+
+    .options {
+
+        display: grid;
+        grid-template-columns: repeat(3, 3fr);
+        border-radius: 10px;
+        height: 0px;
+        width: 100%;
+        margin-left: -12%;
+
+        padding: 0%;
+
+    }
+
+    .transfer,
+    .schedules {
+        margin: 100px 120px 0px 100px;
+        /display: flex;
+        gap: 100px;
+        flex-direction: column;
+
+
+    }
+
+
+
+    .transfer-info,
+    .schedule {
+        margin-top: 50PX;
+        display: grid;
+        grid-column-gap: 50px;
+        grid-row-gap: 1%;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: -5%;
+    }
+
+    .view-all {
+        display: block;
+    }
+
+    .view-all button {
+        margin-left: 42%;
+    }
+
+    .footer {
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+        margin-top: 100px;
+
+    }
+
+    .info {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 7%;
+        margin-top: 40px;
+        padding-top: 50px;
+        width: 80%;
+        height: 100px;
+        font-size: larger;
+    }
+
+
+
+    /* For second website */
+
+
+}
