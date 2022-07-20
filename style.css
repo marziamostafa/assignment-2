@@ -27,7 +27,7 @@ Style in ine cover
     display: flex;
     column-gap: 60px;
     width: 90%;
-    height: 350px;
+    height: 400px;
     margin-top: 50px;
     margin-left: 160px;
 
@@ -90,7 +90,7 @@ Style in ine cover
 .live .player img {
     width: 520px;
     height: 520px;
-    margin-top: -70px;
+    margin-top: -20px;
 }
 
 /* -------------------------------
