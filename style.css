@@ -98,10 +98,11 @@ style in the first section
 
 .transfer,
 .schedules {
-    margin: 100px 140px 0px 50px;
+    margin: 100px 230px 0px 50px;
     margin-right: 180;
     display: flex;
-    column-gap: 20px;
+    column-gap: 18px;
+
 
 
 }
@@ -146,7 +147,11 @@ style in the first section
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     grid-template-columns: repeat(3, 1fr);
+
 }
+
+
+
 
 
 
