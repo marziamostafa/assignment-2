@@ -98,7 +98,7 @@ style in the first section
 
 .transfer,
 .schedules {
-    margin: 100px 230px 0px 50px;
+    margin: 100px 230px 0px 30px;
     margin-right: 180;
     display: flex;
     column-gap: 18px;
@@ -333,7 +333,7 @@ style in the second swebsite
 
     .live-discription button {
         background-color: red;
-        width: 40%;
+        width: 45%;
         height: 2.8em;
         border-radius: 5px;
         padding: 1%px;
@@ -354,7 +354,7 @@ style in the second swebsite
         width: 270px;
         height: 270px;
         margin-top: 0px;
-        margin-left: 30px;
+        margin-left: 18px;
         margin-bottom: -64px;
     }
 
@@ -387,7 +387,7 @@ style in the second swebsite
         grid-row-gap: 1%;
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
-        margin-left: 1%;
+
         margin-right: 2%;
         margin-bottom: 85%;
     }
