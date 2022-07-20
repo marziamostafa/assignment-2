@@ -51,9 +51,6 @@ Style in ine cover
     font-size: 60px;
     font-weight: 700;
     margin-top: -20px
-        /* width: 520px;
-    height: 240px; */
-
 }
 
 .live-discription p {
@@ -102,6 +99,7 @@ style in the first section
 .transfer,
 .schedules {
     margin: 100px 140px 0px 100px;
+    margin-right: 180;
     display: flex;
     column-gap: 20px;
 
@@ -117,6 +115,7 @@ style in the first section
     width: 4000px;
     border-radius: 10px;
     height: 280px;
+
     padding: 10px;
 
 }
@@ -126,7 +125,7 @@ style in the first section
     width: 200px;
     height: 60px;
 
-    margin: 15px 15px 5px 35px;
+    margin: 15px 15px 5px 15px;
     border-radius: 10px;
 
 }
@@ -328,7 +327,7 @@ style in the second swebsite
 
     .live-discription button {
         background-color: red;
-        width: 34%;
+        width: 40%;
         height: 2.8em;
         border-radius: 5px;
         padding: 1%px;
@@ -360,6 +359,8 @@ style in the second swebsite
         gap: 30%;
         flex-direction: column;
         margin-top: 15px;
+        margin-right: 30%;
+        margin-bottom: 30px;
     }
 
     .options {
